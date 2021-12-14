@@ -53,6 +53,12 @@ main img {
   flex: 2;
 }
 
+.grid {
+  display: flex;
+  flex-direction: column;
+  size: 100%;
+}
+
 /* -------  Navigation ------- */
 
 header {
@@ -62,9 +68,7 @@ header {
   margin-bottom: 30px;
   display: flex;
   flex-direction: column;
-  
 }
-
 
 .logo {
   font-family: "Tangerine", cursive;
@@ -105,7 +109,6 @@ header nav ul li a:hover {
   color: #bdbdbd;
   text-decoration: none;
 }
-
 
 /* -------  Join Form ------- */
 form {
@@ -159,7 +162,7 @@ footer p {
     flex-direction: row;
     padding: 0;
   }
-  
+
   header nav ul {
     display: flex;
     flex-direction: row;
@@ -178,13 +181,9 @@ footer p {
     flex-basis: 45%;
   }
 
-  main #blog .group {
-    flex-wrap: wrap;
-  }
-  
   .group {
     flex-direction: row;
-    padding:10px;
+    padding: 10px;
     margin: 0;
   }
 
@@ -193,14 +192,11 @@ footer p {
     margin: 14px 0 14px 20px;
     font-size: 42px;
   }
+
+  .grid {
+    flex-direction: row;
+    padding: 10px;
+    margin: 0;
+    flex-wrap: wrap;
+  }
 }
-
-
-
-
- 
- 
-
-
-
-
